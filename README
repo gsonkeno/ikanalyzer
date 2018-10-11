@@ -35,3 +35,6 @@ By github.zxiaofan.com (2017:08:18 20:30)
 </properties>
 
 By github.zxiaofan.com (2017:10:13 20:00)
+
+
+特别说明:修复了停词加载时 stream closed的bug

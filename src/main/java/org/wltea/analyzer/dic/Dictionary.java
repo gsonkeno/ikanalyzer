@@ -440,7 +440,7 @@ public class Dictionary {
                     print("loadStopWordDict:FileNotFoundException", path);
                     print(e);
                 } finally {
-                    close(is);
+                    // close(is);  此处代码会造成 stream closed
                 }
                 // 如果找不到扩展的字典，则忽略
                 if (is == null) {
